@@ -1,0 +1,92 @@
+# Core Dependencies
+react                    # Core React library
+react-dom                # React DOM manipulation
+@types/react            # TypeScript definitions for React
+@types/react-dom        # TypeScript definitions for React DOM
+typescript              # TypeScript language support
+vite                    # Build tool and development server
+@vitejs/plugin-react    # Vite plugin for React
+
+# Routing
+react-router-dom        # React routing library
+
+# State Management
+jotai                   # Atomic state management
+@tanstack/react-query   # Data fetching and caching
+
+# Forms and Validation
+react-hook-form         # Form handling
+@hookform/resolvers     # Form validation resolvers
+zod                     # Schema validation
+
+# UI and Styling
+tailwindcss            # Utility-first CSS framework
+autoprefixer           # CSS vendor prefixing
+postcss                # CSS transformations
+clsx                   # Conditional CSS class construction
+tailwind-merge         # Tailwind class merging utility
+lucide-react           # Icon library
+lightweight-charts     # Trading charts library
+
+# Date Handling
+date-fns               # Date manipulation library
+
+# Security
+bcryptjs               # Password hashing
+@types/bcryptjs        # TypeScript definitions for bcryptjs
+jwt-decode             # JWT token decoding
+
+# Development Tools
+eslint                          # Code linting
+@typescript-eslint/parser       # TypeScript parser for ESLint
+@typescript-eslint/eslint-plugin # ESLint plugin for TypeScript
+eslint-plugin-react-hooks       # ESLint rules for React Hooks
+eslint-plugin-react-refresh     # ESLint plugin for React Refresh
+
+# API Integration
+polygon.io API Key: baaf81ba-1174-42dc-b155-74b96c5de680
+Base URL: https://api.polygon.io/v2
+Endpoints:
+- /snapshot/locale/us/markets/stocks/tickers (Real-time quotes)
+- /aggs/ticker/{symbol}/range/1/minute/today (Intraday data)
+- /reference/tickers (Stock symbols)
+
+# Environment Variables
+VITE_POLYGON_API_KEY=baaf81ba-1174-42dc-b155-74b96c5de680
+
+# Package Versions
+{
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@tanstack/react-query": "^5.24.1",
+    "bcryptjs": "^2.4.3",
+    "clsx": "^2.1.0",
+    "date-fns": "^3.3.1",
+    "jotai": "^2.6.5",
+    "jwt-decode": "^4.0.0",
+    "lightweight-charts": "^4.1.3",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
+    "react-router-dom": "^6.22.2",
+    "tailwind-merge": "^2.1.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  }
+}
